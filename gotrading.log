@@ -1,0 +1,64 @@
+2019/01/08 05:17:20 main.go:11: test
+2019/01/08 05:17:39 main.go:11: Hello World
+2019/01/08 05:44:10 main.go:11: yosei!
+
+
+2019/01/10 03:56:44 main.go:11: yosei!
+2019/01/10 03:56:47 main.go:11: yosei!
+2019/01/10 15:18:01 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:19:39 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:19:39 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/ticker
+2019/01/10 15:29:19 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:29:33 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:29:33 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/ticker
+2019/01/10 15:35:12 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/v1/me/getbalance
+2019/01/10 15:35:12 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/v1/ticker
+2019/01/10 15:35:12 bitflyer.go:125: action=DateTime,error = parsing time "2019-01-10T15:35:00.147" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2019/01/10 15:35:12 bitflyer.go:125: action=DateTime,error = parsing time "2019-01-10T15:35:00.147" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2019/01/10 15:35:41 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/v1/me/getbalance
+2019/01/10 15:35:42 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/v1/ticker
+2019/01/10 15:35:42 bitflyer.go:125: action=DateTime,error = parsing time "2019-01-10T15:35:41.913" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2019/01/10 15:35:42 bitflyer.go:125: action=DateTime,error = parsing time "2019-01-10T15:35:41.913" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2019/01/10 15:41:09 bitflyer.go:57: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:41:10 bitflyer.go:57: action=doRequest,endpoint=https://api.bitflyer.com/ticker
+2019/01/10 15:41:33 bitflyer.go:57: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:41:33 bitflyer.go:57: action=doRequest,endpoint=https://api.bitflyer.com/ticker
+2019/01/10 15:44:49 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:44:50 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/ticker
+2019/01/10 15:46:54 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/me/getbalance
+2019/01/10 15:46:54 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/ticker
+2019/01/10 15:49:16 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/v1/me/getbalance
+2019/01/10 15:49:17 bitflyer.go:56: action=doRequest,endpoint=https://api.bitflyer.com/v1/ticker
+2019/01/10 15:49:17 bitflyer.go:125: action=DateTime,error = parsing time "2019-01-10T15:49:16.977" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2019/01/10 15:49:17 bitflyer.go:125: action=DateTime,error = parsing time "2019-01-10T15:49:16.977" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2019/01/10 16:05:40 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/10 16:09:38 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/10 16:14:38 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/10 16:15:39 bitflyer.go:183: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/10 16:21:34 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/10 16:22:04 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/10 16:22:18 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/10 16:23:18 bitflyer.go:230: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/12 04:23:17 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/12 07:30:31 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/12 07:31:31 bitflyer.go:230: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/12 07:43:30 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/12 07:44:30 bitflyer.go:230: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/12 08:05:29 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/12 08:06:30 bitflyer.go:183: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/12 08:23:10 bitflyer.go:57: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2019/01/12 08:40:24 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/12 08:40:48 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/15 04:42:43 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/15 08:51:17 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/15 08:52:18 bitflyer.go:183: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/16 10:37:34 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/16 10:38:37 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/16 10:39:38 bitflyer.go:183: read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/16 11:00:31 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/16 11:01:09 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/16 11:04:09 bitflyer.go:165: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+read: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/01/16 11:26:36 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2019/01/16 11:32:10 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
