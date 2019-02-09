@@ -1,18 +1,19 @@
 package main
 
 import (
-	// "./app/controllers"
+	"./app/controllers"
 	"./app/models"
-	"./bitflyer"
-	"./config"
-	"./utils"
-	"fmt"
+	"log"
+	"time"
 )
 
 func main() {
-	utils.LoggingSettings(config.Config.LogFile)
-	apiClient := bitflyer.New(config.Config.ApiKey, config.Config.ApiSecret)
-	fmt.Println(models.DbConnection)
-	tickerChan := make(chan bitflyer.Ticker)
-	apiClient.GetRealTimeTicker(config.Config.ProductCode, tickerChan)
+	s := models.NewSignalEvents()
+	df, _ := models.GetAllCandle("BTC_USD", time.Minute, 10)
+	c1 := df.Candles[len(df.Candles)-2]
+	c2 := df.Candles[len(df.Candles)-1]
+	s.Buy("BTC_USD", c1.Time, c1.Close, 1.0, true)
+	s.Sell("BTC_USD", c2.Time, c2.Close, 1.0, true)
+	controllers.StreamIngestionData()
+	log.Println(controllers.StartWebServer())
 }
